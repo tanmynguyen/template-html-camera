@@ -10,6 +10,8 @@ $(document).ready(function(e) {
 	// 	return false;	
 	// });
 
+    $('.sp-wrap').smoothproducts();
+    
 	var nav = $('.navigation');
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 100) {
